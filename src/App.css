@@ -1,0 +1,46 @@
+.modal {
+  max-width: 644px;
+  right: 0;
+  position: fixed;
+  border: 1px solid #ccc;
+  overflow: auto;
+  overflow-y: scroll;
+  outline: none;
+  width: 100%;
+  background-color: #000000;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+.ReactModal__Overlay--after-open {
+  opacity: 1;
+  z-index: 2;
+  overflow-y: scroll;
+}
+.myoverlay {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.54);
+  backdrop-filter: blur(17px);
+  -webkit-backdrop-filter: blur(17px);
+}
+.ReactModal__Body--open {
+  overflow-y: hidden;
+}
+
+.ant-table-cell {
+  background-color: transparent;
+}
+.ant-table-thead {
+  border-radius: 8px;
+}
+.ant-table {
+  border-radius: 8px;
+}
+.tab-pane {
+  overflow: auto;
+  max-height: 750px;
+}
